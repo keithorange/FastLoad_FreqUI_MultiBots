@@ -101,6 +101,7 @@ class StrategyActionExecutor:
 
             first_run = False  # Update flag after the first iteration
 
+        input("\n\n\n\nPress Enter to close the browser...")
         self.driver.quit()
         print('Browser closed')
 
