@@ -86,6 +86,8 @@ class StrategyActionExecutor:
             action_button.click()
             print(f'Clicked the {button_text} button')
 
+            time.sleep(0.3)
+
             # Use ActionChains to simulate form filling
             actions = ActionChains(self.driver)
             actions.send_keys(Keys.TAB * 2)  # Skip to the form
@@ -97,7 +99,7 @@ class StrategyActionExecutor:
             actions.perform()
 
             print(f"Form submitted for {strategy}")
-            time.sleep(0.1)  # Small pause before proceeding to the next strategy
+            time.sleep(0.3)
 
             first_run = False  # Update flag after the first iteration
 
