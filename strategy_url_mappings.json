@@ -1,0 +1,4 @@
+{
+    "ClucHAnix_BB_RPB_MOD2": "http://localhost:6970", // use the :6970 port as the default on on which others are logged-in-on
+    "NotAnotherSMAOffsetStrategyHOv3": "http://localhost:6981" // include other strats with unique ports or urls!
+}
